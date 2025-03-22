@@ -1,2 +1,2 @@
 
-https://adityamathur25.github.io/Portfolio/
+https://adityaa2506.github.io/Portfolio/
