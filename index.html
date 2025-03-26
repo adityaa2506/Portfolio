@@ -25,7 +25,7 @@
     <div class="user">
       <img src="images/qaz.png" alt="" />
       <h3 class="name">Aditya Mathur</h3>
-      <p class="post">Full Stack Developer</p>
+      <p class="post">PHP Developer</p>
     </div>
 
     <nav class="navbar">
@@ -182,7 +182,7 @@
     <div class="box-container major-projects">
         <div class="box" data-modal="modal-softown">
             <a href="javascript:void(0)">
-                <img src="images/softown-tech.png" alt="Softown.Tech Project" />
+                <img src="images/softown1.png" alt="Softown.Tech Project" />
             </a>
             <h3>Softown.Tech</h3>
             <p>An online software selling marketplace built with PHP, MySQL, HTML, CSS, and JavaScript. It streamlines transactions for over 200+ sellers and buyers.</p>
@@ -198,62 +198,81 @@
 
     <!-- Minor Projects Subsection -->
     <h1 class="heading">Minor <span>Projects</span></h1>
-    <div class="box-container minor-projects">
-        <div class="box">
-            <a href="https://github.com/AdityaMathur25" target="_blank">
-                <img src="images/placeholder-project.png" alt="Project in Progress" />
-            </a>
-            <h3>Project in Progress</h3>
-            <p>Currently working on a new project. Check out my GitHub for updates on upcoming work!</p>
+    <div class="slider-container minor-projects">
+        <button class="prev-btn">❮</button>
+        <div class="slider">
+            <div class="box">
+                <a href="https://github.com/AdityaMathur25" target="_blank">
+                    <img src="images/placeholder-project.png" alt="Project in Progress" />
+                </a>
+                <h3>Project in Progress</h3>
+                <p>Currently working on a new project. Check out my GitHub for updates on upcoming work!</p>
+            </div>
+            <div class="box">
+                <a href="https://github.com/AdityaMathur25" target="_blank">
+                    <img src="images/placeholder-project.png" alt="Project in Progress" />
+                </a>
+                <h3>Project in Progress</h3>
+                <p>Another exciting project in development. Follow my GitHub for the latest updates!</p>
+            </div>
+            <!-- Add more minor projects as needed -->
+            <div class="box">
+                <a href="https://github.com/AdityaMathur25" target="_blank">
+                    <img src="images/placeholder-project.png" alt="Third Project" />
+                </a>
+                <h3>Third Project</h3>
+                <p>A small utility tool built to assist developers in daily tasks.</p>
+            </div>
+            <div class="box">
+                <a href="https://github.com/AdityaMathur25" target="_blank">
+                    <img src="images/placeholder-project.png" alt="Project in Progress" />
+                </a>
+                <h3>Project in Progress</h3>
+                <p>Currently working on a new project. Check out my GitHub for updates on upcoming work!</p>
+            </div>
         </div>
-        <div class="box">
-            <a href="https://github.com/AdityaMathur25" target="_blank">
-                <img src="images/placeholder-project.png" alt="Project in Progress" />
-            </a>
-            <h3>Project in Progress</h3>
-            <p>Another exciting project in development. Follow my GitHub for the latest updates!</p>
+        <button class="next-btn">❯</button>
+    </div>
+
+    <!-- Softown.Tech Modal -->
+    <div id="modal-softown" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <h2>Softown.Tech</h2>
+            <div class="modal-slider">
+                <button class="prev-btn">❮</button>
+                <div class="slider-images">
+                    <img src="images/softown1.png" alt="Softown.Tech Screenshot 1" class="slide active" />
+                    <img src="images/softown2.png" alt="Softown.Tech Screenshot 2" class="slide" />
+                    <img src="images/softown3.png" alt="Softown.Tech Screenshot 3" class="slide" />
+                </div>
+                <button class="next-btn">❯</button>
+            </div>
+            <p>Softown.Tech is an online software selling marketplace designed to streamline transactions between sellers and buyers. Built with PHP, MySQL, HTML, CSS, and JavaScript, it supports over 200+ users by providing a seamless platform for software sales. Features include user authentication, product listings, and secure payment integration.</p>
+            <a href="https://github.com/AdityaMathur25/softown-tech" target="_blank" class="btn">Visit Project</a>
         </div>
     </div>
 
-   
-<!-- Softown.Tech Modal -->
-<div id="modal-softown" class="modal">
-    <div class="modal-content">
-        <span class="close">×</span>
-        <h2>Softown.Tech</h2>
-        <div class="modal-slider">
-            <button class="prev-btn">❮</button>
-            <div class="slider-images">
-                <img src="images/softown-tech-1.png" alt="Softown.Tech Screenshot 1" class="slide active" />
-                <img src="images/softown-tech-2.png" alt="Softown.Tech Screenshot 2" class="slide" />
-                <img src="images/softown-tech-3.png" alt="Softown.Tech Screenshot 3" class="slide" />
+    <!-- FreeKey.me Modal -->
+    <div id="modal-freekey" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <h2>FreeKey.me</h2>
+            <div class="modal-slider">
+                <button class="prev-btn">❮</button>
+                <div class="slider-images">
+                    <img src="images/freekey.png" alt="FreeKey.me Screenshot 1" class="slide active" />
+                    <img src="images/freekey2.png" alt="FreeKey.me Screenshot 2" class="slide" />
+                    <img src="images/freekey3.png" alt="FreeKey.me Screenshot 3" class="slide" />
+                    <img src="images/freekey4.png" alt="FreeKey.me Screenshot 3" class="slide" />
+                </div>
+                <button class="next-btn">❯</button>
             </div>
-            <button class="next-btn">❯</button>
+            <p>FreeKey.me is a licensing platform for software products, developed using PHP, MySQL, HTML, CSS, and JavaScript. It facilitates transactions for 200+ developers by providing secure license key generation and management. The platform includes features like user dashboards, license validation, and developer tools.</p>
+            <a href="http://freekey.infinityfreeapp.com/" target="_blank" class="btn">Visit Project</a>
         </div>
-        <p>Softown.Tech is an online software selling marketplace designed to streamline transactions between sellers and buyers. Built with PHP, MySQL, HTML, CSS, and JavaScript, it supports over 200+ users by providing a seamless platform for software sales. Features include user authentication, product listings, and secure payment integration.</p>
-        <a href="https://github.com/AdityaMathur25/softown-tech" target="_blank" class="btn">Visit Project</a>
     </div>
-</div>
-
-<!-- FreeKey.me Modal -->
-<div id="modal-freekey" class="modal">
-    <div class="modal-content">
-        <span class="close">×</span>
-        <h2>FreeKey.me</h2>
-        <div class="modal-slider">
-            <button class="prev-btn">❮</button>
-            <div class="slider-images">
-                <img src="images/freekey.png" alt="FreeKey.me Screenshot 1" class="slide active" />
-                <img src="images/freekey2.png" alt="FreeKey.me Screenshot 2" class="slide" />
-                <img src="images/freekey3.png" alt="FreeKey.me Screenshot 3" class="slide" />
-                <img src="images/freekey4.png" alt="FreeKey.me Screenshot 3" class="slide" />
-            </div>
-            <button class="next-btn">❯</button>
-        </div>
-        <p>FreeKey.me is a licensing platform for software products, developed using PHP, MySQL, HTML, CSS, and JavaScript. It facilitates transactions for 200+ developers by providing secure license key generation and management. The platform includes features like user dashboards, license validation, and developer tools.</p>
-        <a href="http://freekey.infinityfreeapp.com/" target="_blank" class="btn">Visit Project</a>
-    </div>
-</div>
+  </section>
   <!-- portfolio section ends -->
 
   <!-- contact section starts  -->
@@ -272,18 +291,7 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="form-container">
-            <h2 class="form-heading">Send a <span>message</span> 🚀 🚀</h2>
-            <form action="formissubmitted.html">
-                <input type="text" name="name" placeholder="Full name*" class="box" required />
-                <input type="email" name="email" placeholder="Email address*" class="box" required />
-                <input type="text" name="subject" placeholder="Subject" class="box" />
-                <textarea name="message" placeholder="Tell us more about your project?" class="box message" rows="5" required></textarea>
-                <button type="submit" class="btn">Send message</button>
-            </form>
-        </div>
-    </div> -->
+    </div>
   </section>
   <!-- contact section ends -->
 
@@ -298,123 +306,142 @@
 
   <!-- custom js file link  -->
   <script src="js/script.js"></script>
-</body>
-<script>
-  // Get all project cards in the Major Projects section
-  const projectCards = document.querySelectorAll('.major-projects .box');
-  
-  // Get all modals
-  const modals = document.querySelectorAll('.modal');
-  
-  // Get all close buttons
-  const closeButtons = document.querySelectorAll('.modal .close');
-  
-  // Function to open a modal
-  function openModal(modalId) {
-      const modal = document.getElementById(modalId);
-      if (modal) {
-          modal.style.display = 'flex';
-          initializeSlider(modal); // Initialize the slider for this modal
-      }
-  }
-  
-  // Function to close a modal
-  function closeModal(modal) {
-      modal.style.display = 'none';
-  }
-  
-  // Function to initialize the slider for a modal
-  function initializeSlider(modal) {
-      const slides = modal.querySelectorAll('.slider-images .slide');
-      const sliderContainer = modal.querySelector('.slider-images');
-      const prevBtn = modal.querySelector('.prev-btn');
-      const nextBtn = modal.querySelector('.next-btn');
-      let currentIndex = 0;
-  
-      // Function to adjust the slider height based on the active image
-      function adjustSliderHeight(index) {
-          const activeSlide = slides[index];
-          activeSlide.onload = () => {
-              const naturalWidth = activeSlide.naturalWidth;
-              const naturalHeight = activeSlide.naturalHeight;
-              const aspectRatio = naturalWidth / naturalHeight;
-              const containerWidth = sliderContainer.offsetWidth;
-              let newHeight = containerWidth / aspectRatio;
-  
-              // Respect the max-height constraint
-              const maxHeight = parseInt(getComputedStyle(sliderContainer).maxHeight);
-              if (newHeight > maxHeight) {
-                  newHeight = maxHeight;
-              }
-  
-              sliderContainer.style.height = `${newHeight}px`;
-          };
-  
-          // Trigger the onload event for already loaded images
-          if (activeSlide.complete) {
-              activeSlide.onload();
-          }
-      }
-  
-      // Show the current slide
-      function showSlide(index) {
-          slides.forEach((slide, i) => {
-              slide.classList.remove('active');
-              if (i === index) {
-                  slide.classList.add('active');
-                  adjustSliderHeight(i); // Adjust height for the active slide
-              }
-          });
-      }
-  
-      // Previous button click
-      prevBtn.addEventListener('click', () => {
-          currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-          showSlide(currentIndex);
-      });
-  
-      // Next button click
-      nextBtn.addEventListener('click', () => {
-          currentIndex = (currentIndex + 1) % slides.length;
-          showSlide(currentIndex);
-      });
-  
-      // Show the first slide initially
-      showSlide(currentIndex);
-  }
-  
-  // Add click event to each project card
-  projectCards.forEach(card => {
-      card.addEventListener('click', () => {
-          const modalId = card.getAttribute('data-modal');
-          openModal(modalId);
-      });
-  });
-  
-  // Add click event to each close button
-  closeButtons.forEach(button => {
-      button.addEventListener('click', () => {
-          const modal = button.closest('.modal');
-          closeModal(modal);
-      });
-  });
-  
-  // Close modal when clicking outside the modal content
-  window.addEventListener('click', (event) => {
-      modals.forEach(modal => {
-          if (event.target === modal) {
-              closeModal(modal);
-          }
-      });
-  });
-  
-  // Close modal with Escape key
-  window.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape') {
-          modals.forEach(modal => {
-              closeModal(modal);
-          });
-      }
-  });
+
+  <!-- JavaScript for Sliders -->
+  <script>
+    // Major Projects Modal Sliders
+    const projectCards = document.querySelectorAll('.major-projects .box');
+    const modals = document.querySelectorAll('.modal');
+    const closeButtons = document.querySelectorAll('.modal .close');
+
+    function openModal(modalId) {
+        const modal = document.getElementById(modalId);
+        if (modal) {
+            modal.style.display = 'flex';
+            initializeSlider(modal);
+        }
+    }
+
+    function closeModal(modal) {
+        modal.style.display = 'none';
+    }
+
+    function initializeSlider(modal) {
+        const slides = modal.querySelectorAll('.slider-images .slide');
+        const sliderContainer = modal.querySelector('.slider-images');
+        const prevBtn = modal.querySelector('.prev-btn');
+        const nextBtn = modal.querySelector('.next-btn');
+        let currentIndex = 0;
+
+        function adjustSliderHeight(index) {
+            const activeSlide = slides[index];
+            activeSlide.onload = () => {
+                const naturalWidth = activeSlide.naturalWidth;
+                const naturalHeight = activeSlide.naturalHeight;
+                const aspectRatio = naturalWidth / naturalHeight;
+                const containerWidth = sliderContainer.offsetWidth;
+                let newHeight = containerWidth / aspectRatio;
+
+                const maxHeight = parseInt(getComputedStyle(sliderContainer).maxHeight);
+                if (newHeight > maxHeight) {
+                    newHeight = maxHeight;
+                }
+
+                sliderContainer.style.height = `${newHeight}px`;
+            };
+
+            if (activeSlide.complete) {
+                activeSlide.onload();
+            }
+        }
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                    adjustSliderHeight(i);
+                }
+            });
+        }
+
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+        });
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        });
+
+        showSlide(currentIndex);
+    }
+
+    projectCards.forEach(card => {
+        card.addEventListener('click', () => {
+            const modalId = card.getAttribute('data-modal');
+            openModal(modalId);
+        });
+    });
+
+    closeButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const modal = button.closest('.modal');
+            closeModal(modal);
+        });
+    });
+
+    window.addEventListener('click', (event) => {
+        modals.forEach(modal => {
+            if (event.target === modal) {
+                closeModal(modal);
+            }
+        });
+    });
+
+    window.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            modals.forEach(modal => {
+                closeModal(modal);
+            });
+        }
+    });
+
+    // Minor Projects Slider
+    const minorProjectsSlider = document.querySelector('.slider-container.minor-projects .slider');
+    const minorProjectsPrevBtn = document.querySelector('.slider-container.minor-projects .prev-btn');
+    const minorProjectsNextBtn = document.querySelector('.slider-container.minor-projects .next-btn');
+    const minorProjectCards = document.querySelectorAll('.slider-container.minor-projects .box');
+    let minorProjectsIndex = 0;
+
+    // Always show 2 cards at a time
+    const visibleCards = 2;
+
+    function updateSlider() {
+        const cardWidth = minorProjectCards[0].offsetWidth + 20; // Card width + padding
+        minorProjectsSlider.style.transform = `translateX(-${minorProjectsIndex * cardWidth}px)`;
+    }
+
+    minorProjectsNextBtn.addEventListener('click', () => {
+        if (minorProjectsIndex < minorProjectCards.length - visibleCards) {
+            minorProjectsIndex++;
+            updateSlider();
+        }
+    });
+
+    minorProjectsPrevBtn.addEventListener('click', () => {
+        if (minorProjectsIndex > 0) {
+            minorProjectsIndex--;
+            updateSlider();
+        }
+    });
+
+    window.addEventListener('resize', () => {
+        updateSlider();
+    });
+
+    updateSlider();
   </script>
+</body>
 </html>
